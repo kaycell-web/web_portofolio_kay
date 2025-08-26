@@ -1,2 +1,2 @@
 # web_portofolio_kay
-halamman landing page web portofolio diri
+halaman landing page web portofolio diri

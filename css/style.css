@@ -1,0 +1,80 @@
+
+body {
+    font-family: "Segoe UI", sans-serif;
+}
+
+.nav-box {
+  border: 2px solid #3ca0a0;
+  border-radius: 12px;
+  padding: 10px 32px;   /* padding diperbesar */
+  margin: 0 8px;        /* margin antar kotak diperbesar */
+  background: rgba(255,255,255,0.2);
+  transition: background 0.2s, color 0.2s;
+  font-size: 1.1rem;   /* opsional: memperbesar tulisan */
+}
+
+.nav-box:hover, .nav-box.active {
+  background: #3ca0a0;
+  color: #fff !important;
+}
+
+.hero {
+    background: linear-gradient(135deg, #43cea2, #185a9d, #f7971e, #ffd200);    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cursor {
+    display: inline-block;
+    color: #007bff;
+    animation: blink 1s infinite;
+    font-weight: bold;
+}
+
+.btn-custom-1 {
+  background-color: #e67e22;   
+  color: #ffffff;
+  border: none; 
+}
+
+.btn-custom-2 {
+  background-color: #000000;   
+  color: #ffffff;
+  border: none; 
+}
+
+.btn-custom-3 {
+  background-color: #fb0606;   
+  color: #ffffff;
+  border: none; 
+}
+
+.btn-custom:hover {
+  background-color: #ca6f1e;   
+  color: #0a0c0b;
+} 
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.portfolio-card {
+    transition: transform 0.3s;
+}
+
+.portfolio-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #eaefef;
+    text-align: center;
+    padding: 20px 0;
+}
+
+html {
+  scroll-padding-top: 80px; /* sesuaikan dengan tinggi navbar-mu */
+}
+    
